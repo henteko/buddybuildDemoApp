@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func doCrash(_ sender: Any) {
+        [][0]
+    }
 }
 
